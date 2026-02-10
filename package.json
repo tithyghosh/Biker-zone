@@ -1,0 +1,22 @@
+{
+  "name": "biker-zone-daisy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -c ./tailwind.config.cjs -i ./src/input.css -o ./src/output.css --content \"./src/**/*.html\" --watch",
+    "build": "tailwindcss -c ./tailwind.config.cjs -i ./src/input.css -o ./src/output.css --content \"./src/**/*.html\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "daisyui": "^5.5.18"
+  }
+}
